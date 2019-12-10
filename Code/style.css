@@ -1,8 +1,16 @@
+body, html {
+    height: 100%;
+    width: auto;
+    margin: 0%;
+    padding: 0%;
+}
+
 /*css header*/
 header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    box-shadow: 3px 3px 10px black;
 }
 
 ul {
@@ -23,21 +31,16 @@ ul li a{
 
 /*css la banniere du site*/
 .hero {
+    padding-top: 5px;
     height: 100%;
     width: 100%;
-    background-image: url('images/Bannière.png');
+    background-image: url('images/Banniere.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    margin-top: 10px;
 }
 
 .hero-content {
-    height: 150px;
-    width: auto;
-    margin-top: 150px;
-    margin-left: 150px;
-    font-size: 140%;
     position: absolute;
 }
