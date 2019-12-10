@@ -1,0 +1,41 @@
+/*css header*/
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li{
+    margin: 0 25px;
+    display: inline;
+}
+
+ul li a{
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+/*image projet */
+.product-list{
+    display: flex;
+    margin-left: 30px;
+    justify-content: space-between;
+}
+.product1{
+    border: 2px solid white;
+    display: inline-block;       
+}
+.product2{
+    border: 2px solid white;
+    display: inline-block;
+}
+.product1 img {
+    width: 350px;
+    height: 350px;
+}
