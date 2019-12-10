@@ -1,11 +1,8 @@
 /*css header*/
 header{
-    text-align: center;
+    display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
-    text-decoration: none;
-    font-weight: 900;
 }
 
 ul {
@@ -26,9 +23,21 @@ ul li a{
 
 /*css la banniere du site*/
 .hero {
-    background-image: url();
-    height: 600px;
+    height: 100%;
+    width: 100%;
+    background-image: url('images/Bannière.png');
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    margin-top: 10px;
+}
+
+.hero-content {
+    height: 150px;
+    width: auto;
+    margin-top: 150px;
+    margin-left: 150px;
+    font-size: 140%;
+    position: absolute;
 }
