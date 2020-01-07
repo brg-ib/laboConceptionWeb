@@ -10,7 +10,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    box-shadow: 3px 3px 10px black;
+    box-shadow: 0px 1px 5px #f24976;
 }
 
 header img{
@@ -29,9 +29,11 @@ ul li {
 
 ul li a {
     text-transform: uppercase;
-    color: black;
+    color: #f94276;
     text-decoration: none;
     letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
 }
 
 /*image projet */
