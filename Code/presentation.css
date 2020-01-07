@@ -37,20 +37,47 @@ ul li a {
 }
 
 /*image projet */
-.product-list{
+
+.container {
     display: flex;
-    margin-left: 30px;
-    justify-content: space-between;
+    justify-content: center;
 }
+
 .product1{
-    border: 2px solid white;
-    display: inline-block;       
-}
-.product2{
-    border: 2px solid white;
+    border: 2px solid black;
     display: inline-block;
+    height: 700px;
+    width: 500px; 
+    margin: 50px;  
 }
+
 .product1 img {
+    width: 350px;
+    height: 350px;
+}
+
+.product2{
+    border: 2px solid black;
+    display: inline-block;
+    height: 700px;
+    width: 500px;
+    margin: 50px; 
+}
+
+.product2 img {
+    width: 350px;
+    height: 350px;
+}
+
+.product3{
+    border: 2px solid black;
+    display: inline-block;
+    height: 700px;
+    width: 500px;
+    margin: 50px;  
+}
+
+.product3 img {
     width: 350px;
     height: 350px;
 }
