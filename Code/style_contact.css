@@ -61,6 +61,9 @@ header a img {
     display: flex;
     /*margin-left: 80px;*/
     justify-content: space-between;
+    
+}
+
 }
 .icon{
     border: 2px solid white;
