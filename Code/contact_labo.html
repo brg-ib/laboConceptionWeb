@@ -30,9 +30,13 @@
         <br>
         <section class="title">
             <h2>Labo Ydays Conception Web YnovParis 2019/2020</h2>
+            <p id="date"></p>
+
+
         </section>
         <!--icone de presentations de site-->
         <section class="icon-list">
+            
             <div class="icon">
                 <img src="images/coworkingicone.jpg" alt="labo">
                 <h4>Projet Informatique</h4>
@@ -43,11 +47,12 @@
                 <h4>Informatique+CreaDesign</h4>
                 <h5>Labo Conception Web</h5>
             </div>
-            <div class="icon">
-                <img src="images/calendaricon.png" alt="graduation">
+            <div class="icon" style="height: 250px;">
+                <img src="images/calendaricon.png" alt="calendar" style="height: 200px;margin-top: 48px;">
                 <h4>Réalisé en 2020</h4>
                 <h5>Labo Conception Web</h5>
             </div>
+           
 
         </section>
 
@@ -60,6 +65,11 @@
 
 
     </main>
+    <script>/*date*/
+        var d = new Date();
+        d.setFullYear(2020);
+        document.getElementById("date").innerHTML = d;
+    </script>
     
 </body>
 </html>
