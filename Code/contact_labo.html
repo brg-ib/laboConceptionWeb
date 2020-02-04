@@ -14,22 +14,62 @@
 <body>
     <!--Header du site-->
     <header>
-        <div class="logo">
-                <a href="index.html">
-                    <img src="images/Logo_rose.png" alt="Logo labo conception web">
-                </a>
-            </div>
-            
-            <div class="navigation">
-                <nav>
-                    <ul>
-                        <li><a href="index.html">ACCUEIL</a></li>
-                        <li><a href="page_presentation_projet1.html">LES PROJETS</a></li>
-                        <li><a href="contact_labo.html">CONTACT</a></li>
-                    </ul>
-                </nav>
+        <a href="index.html">
+            <img src="images/Logo_rose.png" alt="Logo labo conception web">
+        </a>
+     
+        <div class="navigation">
+            <a class="link" href="index.html">ACCUEIL</a>
+            <a class="link" href="page_presentation_projet1.html">LES PROJETS</a>
+            <a class="link" href="contact_labo.html">CONTACT</a>
         </div>
     </header>
+    <!--Corps du site-->
+    <main>
+        <!--main title-->
+        <br>
+        <section class="title">
+            <h2>Labo Ydays Conception Web YnovParis 2019/2020</h2>
+            <p id="date"></p>
+
+
+        </section>
+        <!--icone de presentations de site-->
+        <section class="icon-list">
+            
+            <div class="icon">
+                <img src="images/coworkingicone.jpg" alt="labo">
+                <h4>Projet Informatique</h4>
+                <h5>Labo Conception Web</h5>
+            </div>
+            <div class="icon">
+                <img src="images/iconegraduate.png" alt="graduation">
+                <h4>Informatique+CreaDesign</h4>
+                <h5>Labo Conception Web</h5>
+            </div>
+            <div class="icon" style="height: 250px;">
+                <img src="images/calendaricon.png" alt="calendar" style="height: 200px;margin-top: 48px;">
+                <h4>Réalisé en 2020</h4>
+                <h5>Labo Conception Web</h5>
+            </div>
+           
+
+        </section>
+
+        <section class="contact">
+            <div class="sentence-contact">Une question ? Posez-la à un membre de ce projet, le chef du projet ou le directeur de Labo</div>
+            <div class="bouton-contact"><a href="mailto:labocreationweb@gmail.com"><button>Contactez-Nous</button></a></div>
+        </section>
+
+
+
+
+    </main>
+    <script>/*date*/
+        var d = new Date();
+        d.setFullYear(2020);
+        document.getElementById("date").innerHTML = d;
+    </script>
     
 </body>
 </html>
