@@ -63,6 +63,7 @@ header a img {
     display: flex;
     /*margin-left: 80px;*/
     justify-content: space-between;
+    margin: 120px;
     
 }
 
