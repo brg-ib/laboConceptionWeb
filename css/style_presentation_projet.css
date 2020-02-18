@@ -1,0 +1,45 @@
+body, html {
+    height: 100%;
+    width: auto;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*css header*/
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    box-shadow: 0px 1px 5px #f24976;
+}
+
+header a {
+    height: 90px;
+}
+
+header a img {
+    height: 90px;
+    width: 90px;
+}
+
+.navigation .link {
+    height: 50px;
+    padding: 30px 25px;
+    margin: 0px -2px;
+    text-transform: uppercase;
+    color: #f24976;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+
+.navigation .link:hover {
+    color: white;
+    background-color: #03a688;
+    transition: 300ms;
+}
