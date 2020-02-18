@@ -71,6 +71,11 @@ header a img {
     height: 50%;
 }
 
-.product .projectDetail .projectName{
-    align-items: ;
+.projectDetail {
+    display: flex;
+    align-items: center;
+}
+
+.projectName {
+    margin-right: 10px;
 }
