@@ -46,7 +46,7 @@ header a img {
 .hero {
     height: 100%;
     width: 100%;
-    background-image: url('images/Banniere.png');
+    background-image: url('../images/Banniere.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -55,6 +55,7 @@ header a img {
 }
 
 /*css description du labo*/
+
 .description {
     width: 80%;
     margin-left: auto;
