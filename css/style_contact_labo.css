@@ -131,6 +131,7 @@ footer{
 }
 .text-footer{
     box-sizing: border-box;
+    text-align: center;
 }
 .phone{
     color: black;
