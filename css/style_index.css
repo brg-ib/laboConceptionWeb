@@ -1,5 +1,4 @@
 body, html {
-    height: 100%;
     width: auto;
     margin: 0%;
     padding: 0%;
@@ -18,7 +17,6 @@ header {
 
 header a {
     height: 90px;
-    width: 90px;
 }
 
 header a img {
@@ -29,6 +27,7 @@ header a img {
 .navigation .link {
     height: 50px;
     padding: 30px 25px;
+    margin: 0px -2px;
     text-transform: uppercase;
     color: #f24976;
     text-decoration: none;
@@ -47,7 +46,7 @@ header a img {
 .hero {
     height: 100%;
     width: 100%;
-    background-image: url('images/Banniere.png');
+    background-image: url('../images/Banniere.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -56,6 +55,7 @@ header a img {
 }
 
 /*css description du labo*/
+
 .description {
     width: 80%;
     margin-left: auto;
