@@ -64,19 +64,24 @@ header a img {
     /*margin-left: 80px;*/
     justify-content: space-between;
     margin: 120px;
+    text-align: center;
     
 }
 
 .icon{
     border: 2px solid white;
     display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
 }
 /*image de chaque icone*/
 .icon img { 
     width: 250px;
     height: 250px;
 }
-
+/**/
+/*
+*/
 /*Environnement de contact*/
 .contact{
     background-color: #f24976;
