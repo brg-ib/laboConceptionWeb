@@ -5,26 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Contact Labo conception Web</title>
-    <link rel="stylesheet" href="../css/style_contact_labo.css">
+    <link rel="stylesheet" href="../Assets/Css/style_contact_labo.css">
     <!--Police du site-->
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <!--Icone du site-->
-    <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../Assets/Icons/favicon-16x16.png">
     
 </head>
 <body>
     <!--Header du site-->
-    <header>
-        <a href="index.html">
-            <img src="../images/Logo_rose.png" alt="Logo labo conception web">
-        </a>
-     
-        <div class="navigation">
-            <a class="link" href="index.html">ACCUEIL</a>
-            <a class="link" href="les_projets.html">LES PROJETS</a>
-            <a class="link" href="contact_labo.html">CONTACT</a>
-        </div>
-    </header>
+    <?php require("Includes/Header.php")?>
+
     <!--Corps du site-->
     <main>
         <!--main title-->
@@ -39,17 +30,17 @@
         <section class="icon-list">
             
             <div class="icon">
-                <img src="../images/coworkingicone.jpg" alt="labo">
+                <img src="../Assets/Img/coworkingicone.jpg" alt="labo">
                 <h4>Projet Informatique</h4>
                 <h5>Labo Conception Web</h5>
             </div>
             <div class="icon">
-                <img src="../images/iconegraduate.png" alt="graduation">
+                <img src="../Assets/Img/coworkingicone.jpg" alt="graduation">
                 <h4>Informatique+CreaDesign</h4>
                 <h5>Labo Conception Web</h5>
             </div>
             <div class="icon" style="height: 250px;">
-                <img src="../images/calendaricon.png" alt="calendar" style="height: 200px;margin-top: 48px;">
+                <img src="../Assets/Img/coworkingicone.jpg" alt="calendar" style="height: 200px;margin-top: 48px;">
                 <h4>Réalisé en 2020</h4>
                 <h5>Labo Conception Web</h5>
             </div>
