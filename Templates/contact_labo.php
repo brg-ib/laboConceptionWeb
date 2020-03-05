@@ -39,8 +39,8 @@
                 <h4>Informatique+CreaDesign</h4>
                 <h5>Labo Conception Web</h5>
             </div>
-            <div class="icon" style="height: 250px;">
-                <img src="../Assets/Img/coworkingicone.jpg" alt="calendar" style="height: 200px;margin-top: 48px;">
+            <div class="icon" >
+                <img src="../images/calendaricon.png" alt="calendar" style="height: 200px;margin-top: 48px;">
                 <h4>Réalisé en 2020</h4>
                 <h5>Labo Conception Web</h5>
             </div>
