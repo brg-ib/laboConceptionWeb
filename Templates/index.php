@@ -20,17 +20,11 @@
 
     <!--Description Labo-->
     <section class="description">
-        <div classs="text">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem omnis non, aut expedita maiores fuga eius quasi necessitatibus, labore molestias laborum voluptates! Officia voluptatem mollitia distinctio quas autem doloribus nulla?</p>
+        <div class="descText">
+            <p>Notre labo a pour objectif principal d'apprendre ou d'approfondir ses connaissances dans tous les domaines de compétences nécessaires à la conception et la commercialisation d'un site web.</p>
+            <p>Différents groupes de projet comprenent des élèves de toutes filières on été crées. L'idée principale étant d'apprendre des autres pour développer nos propres connaissances</p>
+            <p>Donc si vous souaitez développer vos connaissances dans le secteur du web, rejoignez nous.</p>
         </div>
     </section>
-
-    <main>
-    </main>
-
-    <footer>
-        
-    </footer>
-
 </body>
 </html>

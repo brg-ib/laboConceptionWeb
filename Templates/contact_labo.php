@@ -40,7 +40,7 @@
                 <h5>Labo Conception Web</h5>
             </div>
             <div class="icon" >
-                <img src="../images/calendaricon.png" alt="calendar" style="height: 200px;margin-top: 48px;">
+                <img src="../Assets/Img/calendaricon.png" alt="calendar" style="height: 200px;margin-top: 48px;">
                 <h4>Réalisé en 2020</h4>
                 <h5>Labo Conception Web</h5>
             </div>
@@ -52,42 +52,15 @@
             <div class="sentence-contact">Une question ? Posez-la à un membre de ce projet, le chef du projet ou le directeur de Labo</div>
             <div class="bouton-contact"><a href="mailto:labocreationweb@gmail.com"><button>Contactez-Nous</button></a></div>
         </section>
-        -->
 
     </main>
-    <!--
+    
     <script>/*date*/
         var d = new Date();
         d.setFullYear(2020);
         document.getElementById("date").innerHTML = d;
-    </script>
-    -->
-
-    <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="container-one">
-                    <section class="text-ynov">
-                        <div class="text-footer">
-                            <p>Ynov Paris France</p>
-                            <p>12 rue Anatole France, 92000 Nanterre</p>
-                        </div>
-
-                    </section>
-                </div>
-                <div class="container-two">
-                    <div class="menu-footer">
-                        <ul id="main-footer" class="nav-list footer-list">
-
-                        </ul>
-                    </div>
-                    
-                </div>
-            </div>
-
-        </div>
-    </footer>
-
+    </script>-->
     
+
 </body>
 </html>
